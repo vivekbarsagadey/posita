@@ -22,7 +22,7 @@ QUnit.test( "Accessing Expensive resources", function( assert ) {
 
 // After Close operations
 
-QUnit.test( "Checking for Resource Ids", function( assert ) {
+QUnit.test( "After Close operations: Checking for Resource Ids", function( assert ) {
     p.close();
     assert.ok(p.getExpensiveResource().value =="Resource associated with ID 101 is already closed", "Result : P Passed!" );
     assert.ok(q.getExpensiveResource().value =="I'm a very expensive resource associated with ID 102", "Result : q Passed!");
