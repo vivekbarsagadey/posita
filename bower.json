@@ -1,0 +1,21 @@
+{
+  "name": "posita",
+  "version": "0.0.0",
+  "authors": [
+    "Vivek Barsagadey"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "qunit": "~1.19.0"
+  },
+  "devDependencies": {
+    "qunit": "~1.19.0"
+  }
+}
